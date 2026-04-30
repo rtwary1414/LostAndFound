@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7F9FC"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lost and Found"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#1F2937"
+        android:gravity="center"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report lost or found items and help return them to the right owner."
+        android:textSize="15sp"
+        android:textColor="#6B7280"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/btnCreateAdvert"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Create a New Advert"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/sky_blue"
+        android:layout_marginBottom="18dp" />
+
+    <Button
+        android:id="@+id/btnShowItems"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Show Lost and Found Items"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/sky_blue" />
+
+</LinearLayout>
